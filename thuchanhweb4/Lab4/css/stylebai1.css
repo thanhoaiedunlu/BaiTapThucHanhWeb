@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, Arial, sans-serif;
+}
+body {
+    background-color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.violet{
+    background-color: violet ;
+}
+.indigo{
+    background-color: indigo;
+}
+.orange{
+    background-color: orange;
+}

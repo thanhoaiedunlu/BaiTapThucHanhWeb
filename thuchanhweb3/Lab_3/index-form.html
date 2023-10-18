@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style-form.css">
+</head>
+<body>
+<div class="container">
+    <h1>Contact Us</h1>
+    <form action="" method="post" onsubmit="return submitForm()">
+        <div class="form-group">
+            <label for="">Full Name</label>
+            <input type="text" class="form-name col-100" id="name">
+            <span id="name_error" style="color: red"></span>
+        </div>
+        <div class="col">
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" class="form-email" id="email">
+                <span id="email_error" style="color: red"></span>
+            </div>
+            <div class="form-group">
+                <label for="">Phone</label>
+                <input type="text" class="form-phone" id="phone">
+                <span id="phone_error" style="color: red"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Needed Services</label>
+            <select class="form-select col-100">
+                <option value="" hidden disabled selected>Please chooses </option>
+                <option value="1">Web Design</option>
+                <option value="2">Web Development</option>
+                <option value="3">SEO</option>
+                <option value="4">Marketing</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="">Message</label>
+            <textarea class="form-textarea col-100" ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+</body>
+</html>

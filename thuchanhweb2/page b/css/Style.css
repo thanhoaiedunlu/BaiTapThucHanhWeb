@@ -1,0 +1,91 @@
+body{
+    font-family: Tahoma, Arial, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#section_text_2 {
+    height: 115px;
+    background-color: #f3f3f3;
+
+}
+#section_text_2 .alpha {
+    float: left;
+    padding-top: 30px;
+}
+#section_text_2 .omega{
+    float: right;
+    background-color: #f77825;
+    padding: 20px 30px;
+    text-align: center;
+}
+#section_text_2 .omega .pix_button{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}
+#section_header_1{
+    height: 90px;
+}
+#navbar-collapse-02 .navbar-left > li{
+    display: inline-block;
+}
+.navbar-left  li a{
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0 30px;
+    color: #7f7f7f;
+}
+.bottom-icons li {
+    display: inline-block;
+
+}
+.bottom-icons li a{
+    text-decoration: none;
+    color: #7f7f7f;
+}
+.right_socials{
+    float: right;
+    padding: 10px;
+}
+.carousel-inner{
+    background-color: #eeeeee;
+}
+.carousel-inner img{
+    width: 1169px;
+    height: 466px;
+    position: relative;
+}
+.carousel-inner .item .carousel-caption{
+    position: absolute;
+    bottom: 28px;
+    color: #ffffff;
+    width: 100%;
+    left: 20%  ;
+}
+.section_gym_4{
+    background-color: white;
+    height: 260px;
+
+}
+.top_padding.one-third{
+    text-align: center;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+

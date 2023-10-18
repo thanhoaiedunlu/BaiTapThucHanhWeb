@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    box-sizing: border-box;
+}
+.color-label{
+    color: limegreen;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e2e3e5;
+}
+.container{
+    width: 550px;
+    background-color:#ffffff;
+    border-radius: 8px;
+
+}
+
+.container .input-box{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 ;
+    display: flex;
+    justify-content: center;
+
+}
+.account-label{
+    padding-left: 65px;
+}
+.input-box input{
+    width: 75%;
+    height: 100%;
+}
+.date .date-label {
+    padding-left: 65px;
+}
+.date  .gender-label{
+    padding-left: 64px;
+}
+.container .date .date-input {
+    padding-left: 65px;
+}
+.date-input input {
+    display: inline-block;
+    width: 15%;
+}
+.payment {
+    padding-left: 65px;
+    width: 100%;
+}
+.payment .paypal-btn,
+.payment .creditcard-btn{
+    width: 40%;
+    height: 30px;
+}
+.cardnumber{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cardnumber input{
+    width: 80%;
+    height: 100%;
+}
+.cardcvc{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cardcvc select{
+    margin-left: 10px;
+    width: 25%;
+}
